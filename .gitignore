@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# dbt
+dbt/dbt-playground/target/
+dbt/dbt-playground/logs/
+dbt/dbt-playground/.user.yml
+dbt/dbt-playground/dbt_packages/
+
+# Spark logs (event logs, not source)
+pyspark/app-*/
+pyspark/spark-events/
+pyspark/output/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
