@@ -23,5 +23,7 @@ pyspark/output/
 # macOS
 .DS_Store
 
-# Docker
+# Docker volumes
+pyspark/cassandra-persistence/
+pyspark/kafka-persistence/
 *.log
