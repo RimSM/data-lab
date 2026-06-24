@@ -48,6 +48,7 @@ services:
       - PYTHONPATH=/usr/local/spark/python:/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip:/usr/local/spark/python/lib/pyspark.zip
       - PYSPARK_PYTHON=/opt/conda/bin/python
       - PYSPARK_DRIVER_PYTHON=/opt/conda/bin/python
+    command: start-notebook.sh --NotebookApp.token='lab'
     volumes:
       - .:/home/jovyan/work
     ports:
