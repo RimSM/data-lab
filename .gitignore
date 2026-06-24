@@ -20,6 +20,10 @@ pyspark/app-*/
 pyspark/spark-events/
 pyspark/output/
 
+# Spark Streaming runtime artifacts (generated on run)
+pyspark/checkpoint/
+pyspark/streaming_output/
+
 # macOS
 .DS_Store
 
